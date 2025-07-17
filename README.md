@@ -85,20 +85,20 @@ A secure, production-ready **RAG (Retrieval-Augmented Generation)** chatbot appl
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-2️⃣ Install dependencies
+###2️⃣ Install dependencies
 pip install -r requirements.txt
 
-3️⃣ Set up .env file
+###3️⃣ Set up .env file
 Create a .env file in the root with your Auth0 credentials:
 
 AUTH0_DOMAIN=your-auth0-domain
 AUTH0_CLIENT_ID=your-client-id
 AUTH0_CLIENT_SECRET=your-secret
 
-4️⃣ Start Qdrant (via Docker)
+###4️⃣ Start Qdrant (via Docker)
 
 docker run -d -p 6333:6333 qdrant/qdrant
-5️⃣ Run Ollama (install & pull model)
+###5️⃣ Run Ollama (install & pull model)
 
 # Install Ollama
 curl -fsSL https://ollama.com/install.sh | sh
