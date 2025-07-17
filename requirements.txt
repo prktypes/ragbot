@@ -1,0 +1,14 @@
+streamlit
+langchain
+openai
+qdrant-client
+sentence-transformers
+python-dotenv
+requests
+PyJWT
+pandas
+pdfminer.six
+tqdm
+regex
+huggingface-hub
+urllib3

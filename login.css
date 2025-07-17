@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, .stApp {
+    background-color: #000 !important;
+    color: #fff !important;
+    height: 100% !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* Override all layout containers */
+section.main, .block-container, .css-18e3th9 {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Chat message backgrounds */
+.stChatMessage {
+    background-color: #111 !important;
+    color: #fff !important;
+}
+
+/* Inputs, buttons, textareas */
+input, textarea, .stTextInput, .stTextArea, .stButton > button {
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #000000 !important;
+}
+
+/* Sidebar background */
+.css-1d391kg, .css-1vq4p4l {
+    background-color: #000 !important;
+}
+
+/* Sidebar buttons */
+.stButton button {
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+}
+
+/* Header and markdown text */
+h1, h2, h3, h4, h5, h6, p, span, div {
+    color: #fff !important;
+}
+
+
+.login-container {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.login-container h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.login-container p {
+    color: #000000;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.login-button.google {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #444;
+}
+
+.login-footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 1rem;
+}
